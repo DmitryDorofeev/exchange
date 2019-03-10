@@ -1,0 +1,15 @@
+.input {
+    border: none;
+    width: auto;
+    font-size: 30px;
+    text-align: right;
+    -moz-appearance: textfield;
+    outline: none;
+    background-color: transparent;
+}
+
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

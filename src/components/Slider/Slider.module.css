@@ -1,0 +1,9 @@
+.root {
+    min-height: 100px;
+    width: calc(100% - 50px);
+    padding: 0 25px;
+}
+
+.slide {
+
+}

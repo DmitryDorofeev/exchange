@@ -1,0 +1,13 @@
+.root {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.currency {
+    font-size: 30px;
+}
+
+.amount {
+    font-size: 15px;
+}
