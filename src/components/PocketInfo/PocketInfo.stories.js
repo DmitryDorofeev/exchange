@@ -1,5 +1,5 @@
 import React from 'react';
-import {PocketInfo} from './CurrencyInput';
+import {PocketInfo} from './PocketInfo';
 import {storiesOf} from '@storybook/react';
 
 storiesOf('PocketInfo', module)
