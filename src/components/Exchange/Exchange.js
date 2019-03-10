@@ -10,6 +10,7 @@ export const Exchange = ({pockets, from, to, onExchange, onInputChange, onFromSw
     <div className={styles.root}>
       <Slider
         onChange={(index) => onFromSwitch(pockets[index].currency)}
+        active={pockets.findIndex((pocket) => pocket.currency === from.currency)}
       >
         {pockets.map((pocket, key) => (
           <PocketInfo
@@ -24,6 +25,7 @@ export const Exchange = ({pockets, from, to, onExchange, onInputChange, onFromSw
       </Slider>
       <Slider
         onChange={(index) => onToSwitch(pockets[index].currency)}
+        active={pockets.findIndex((pocket) => pocket.currency === to.currency)}
       >
         {pockets.map((pocket, key) => (
           <PocketInfo
@@ -35,7 +37,10 @@ export const Exchange = ({pockets, from, to, onExchange, onInputChange, onFromSw
         ))}
       </Slider>
       <div className={styles.button}>
-        <Button disabled={from.currency === to.currency} onClick={() => onExchange({from, to})}>
+        <Button
+          disabled={from.currency === to.currency || from.value > from.amount}
+          onClick={() => onExchange({from, to})}
+        >
           Exchange
         </Button>
       </div>
