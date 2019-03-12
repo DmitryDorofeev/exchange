@@ -4,7 +4,7 @@ import {fetchFailed, fetchStarted, fetchSucceeded} from './actions';
 
 export const rateSelector = (store) => store.rates.list;
 
-function* fetchRates() {
+export function* fetchRates() {
   yield put(fetchStarted());
   const {response, error} = yield call(fetchRatesApi, ['EUR', 'GBP']);
   if (error) {

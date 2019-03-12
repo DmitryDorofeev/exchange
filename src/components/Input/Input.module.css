@@ -6,6 +6,7 @@
     -moz-appearance: textfield;
     outline: none;
     background-color: transparent;
+    color: #ffffff;
 }
 
 .input::-webkit-outer-spin-button,

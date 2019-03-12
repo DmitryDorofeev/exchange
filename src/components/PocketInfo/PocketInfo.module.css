@@ -4,6 +4,7 @@
     width: 100%;
     box-sizing: border-box;
     padding: 0 16px;
+    color: #ffffff;
 }
 
 .currency {
@@ -12,4 +13,8 @@
 
 .amount {
     font-size: 15px;
+}
+
+.error {
+    color: #E73C7E;
 }

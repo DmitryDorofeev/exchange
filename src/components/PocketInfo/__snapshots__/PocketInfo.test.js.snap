@@ -7,7 +7,7 @@ ShallowWrapper {
     amount={2}
     currency="GBP"
     onInputChange={[Function]}
-    value={3}
+    value={2}
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -39,7 +39,7 @@ ShallowWrapper {
           </div>
         </div>,
         <div>
-          3.00
+          2.00
         </div>,
       ],
       "className": "root",
@@ -108,10 +108,16 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "3.00",
+          "children": Array [
+            null,
+            "2.00",
+          ],
         },
         "ref": null,
-        "rendered": "3.00",
+        "rendered": Array [
+          null,
+          "2.00",
+        ],
         "type": "div",
       },
     ],
@@ -139,7 +145,7 @@ ShallowWrapper {
             </div>
           </div>,
           <div>
-            3.00
+            2.00
           </div>,
         ],
         "className": "root",
@@ -208,10 +214,16 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "3.00",
+            "children": Array [
+              null,
+              "2.00",
+            ],
           },
           "ref": null,
-          "rendered": "3.00",
+          "rendered": Array [
+            null,
+            "2.00",
+          ],
           "type": "div",
         },
       ],
@@ -242,7 +254,7 @@ ShallowWrapper {
 }
 `;
 
-exports[`PocketInfo component renders input when editable 1`] = `
+exports[`PocketInfo component renders error when value > amount 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <PocketInfo
@@ -282,6 +294,13 @@ ShallowWrapper {
           </div>
         </div>,
         <div>
+          <div
+            className="error"
+          >
+            You don't have 
+            £
+            3
+          </div>
           <Input
             onChange={[Function]}
             value="3.00"
@@ -354,24 +373,55 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <Input
-            onChange={[Function]}
-            value="3.00"
-          />,
+          "children": Array [
+            <div
+              className="error"
+            >
+              You don't have 
+              £
+              3
+            </div>,
+            <Input
+              onChange={[Function]}
+              value="3.00"
+            />,
+          ],
         },
         "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "onChange": [Function],
-            "value": "3.00",
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "You don't have ",
+                "£",
+                3,
+              ],
+              "className": "error",
+            },
+            "ref": null,
+            "rendered": Array [
+              "You don't have ",
+              "£",
+              3,
+            ],
+            "type": "div",
           },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "onChange": [Function],
+              "value": "3.00",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
         "type": "div",
       },
     ],
@@ -399,6 +449,13 @@ ShallowWrapper {
             </div>
           </div>,
           <div>
+            <div
+              className="error"
+            >
+              You don't have 
+              £
+              3
+            </div>
             <Input
               onChange={[Function]}
               value="3.00"
@@ -471,13 +528,209 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <Input
+            "children": Array [
+              <div
+                className="error"
+              >
+                You don't have 
+                £
+                3
+              </div>,
+              <Input
+                onChange={[Function]}
+                value="3.00"
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "You don't have ",
+                  "£",
+                  3,
+                ],
+                "className": "error",
+              },
+              "ref": null,
+              "rendered": Array [
+                "You don't have ",
+                "£",
+                3,
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "onChange": [Function],
+                "value": "3.00",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`PocketInfo component renders input when editable 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <PocketInfo
+    amount={3}
+    currency="GBP"
+    editable={true}
+    onInputChange={[Function]}
+    value={3}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div>
+          <div
+            className="currency"
+          >
+            GBP
+          </div>
+          <div
+            className="amount"
+          >
+            You have 
+            £
+            3.00
+          </div>
+        </div>,
+        <div>
+          <Input
+            onChange={[Function]}
+            value="3.00"
+          />
+        </div>,
+      ],
+      "className": "root",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="currency"
+            >
+              GBP
+            </div>,
+            <div
+              className="amount"
+            >
+              You have 
+              £
+              3.00
+            </div>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "GBP",
+              "className": "currency",
+            },
+            "ref": null,
+            "rendered": "GBP",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "You have ",
+                "£",
+                "3.00",
+              ],
+              "className": "amount",
+            },
+            "ref": null,
+            "rendered": Array [
+              "You have ",
+              "£",
+              "3.00",
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            null,
+            <Input
               onChange={[Function]}
               value="3.00"
             />,
-          },
-          "ref": null,
-          "rendered": Object {
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          null,
+          Object {
             "instance": null,
             "key": undefined,
             "nodeType": "function",
@@ -489,6 +742,130 @@ ShallowWrapper {
             "rendered": null,
             "type": [Function],
           },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div>
+            <div
+              className="currency"
+            >
+              GBP
+            </div>
+            <div
+              className="amount"
+            >
+              You have 
+              £
+              3.00
+            </div>
+          </div>,
+          <div>
+            <Input
+              onChange={[Function]}
+              value="3.00"
+            />
+          </div>,
+        ],
+        "className": "root",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="currency"
+              >
+                GBP
+              </div>,
+              <div
+                className="amount"
+              >
+                You have 
+                £
+                3.00
+              </div>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "GBP",
+                "className": "currency",
+              },
+              "ref": null,
+              "rendered": "GBP",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "You have ",
+                  "£",
+                  "3.00",
+                ],
+                "className": "amount",
+              },
+              "ref": null,
+              "rendered": Array [
+                "You have ",
+                "£",
+                "3.00",
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              null,
+              <Input
+                onChange={[Function]}
+                value="3.00"
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            null,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "onChange": [Function],
+                "value": "3.00",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
           "type": "div",
         },
       ],

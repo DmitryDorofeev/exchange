@@ -3,7 +3,7 @@ import {FETCH_FAILED, FETCH_STARTED, FETCH_SUCCEEDED} from './actions';
 
 const base = {USD: 1};
 
-const list = (state = {}, action) => {
+export const list = (state = {}, action) => {
   switch (action.type) {
     case FETCH_SUCCEEDED:
       return {...base, ...action.payload};
@@ -12,7 +12,7 @@ const list = (state = {}, action) => {
   }
 };
 
-const loading = (state = false, action) => {
+export const loading = (state = false, action) => {
   switch (action.type) {
     case FETCH_STARTED:
       return true;

@@ -13,6 +13,11 @@ export const PocketInfo = ({currency, amount, editable, onInputChange, value}) =
         </div>
       </div>
       <div>
+        {value > amount && editable ? (
+          <div className={styles.error}>
+            You don't have {getCurrencySymbol(currency)}{value}
+          </div>
+        ) : null}
         {editable ? <Input value={value.toFixed(2)} onChange={onInputChange}/> : value.toFixed(2)}
       </div>
     </div>
