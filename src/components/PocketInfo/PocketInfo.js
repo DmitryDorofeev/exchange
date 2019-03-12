@@ -18,3 +18,7 @@ export const PocketInfo = ({currency, amount, editable, onInputChange, value}) =
     </div>
   );
 };
+
+PocketInfo.defaultProps = {
+  onInputChange: () => null,
+};

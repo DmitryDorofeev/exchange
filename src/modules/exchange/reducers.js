@@ -1,7 +1,7 @@
 import {CHANGE_VALUE, CHANGE_RESULT, SWITCH_CURRENCY} from './actions';
 import {combineReducers} from 'redux';
 
-const from = (state = 'USD', action) => {
+export const from = (state = 'USD', action) => {
   switch (action.type) {
     case SWITCH_CURRENCY:
       if (action.payload.direction === 'from') {
@@ -14,7 +14,7 @@ const from = (state = 'USD', action) => {
   }
 };
 
-const to = (state = 'GBP', action) => {
+export const to = (state = 'GBP', action) => {
   switch (action.type) {
     case SWITCH_CURRENCY:
       if (action.payload.direction === 'to') {
@@ -27,7 +27,7 @@ const to = (state = 'GBP', action) => {
   }
 };
 
-const value = (state = 0, action) => {
+export const value = (state = 0, action) => {
   switch (action.type) {
     case CHANGE_VALUE:
       return action.payload;
@@ -36,7 +36,7 @@ const value = (state = 0, action) => {
   }
 };
 
-const result = (state = 0, action) => {
+export const result = (state = 0, action) => {
   switch (action.type) {
     case CHANGE_RESULT:
       return action.payload;

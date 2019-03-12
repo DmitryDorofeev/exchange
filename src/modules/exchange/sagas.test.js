@@ -1,6 +1,6 @@
 import {put, select, call} from 'redux-saga/effects';
 import sagaHelper from 'redux-saga-testing';
-import {calculateResult, makeTransaction} from './sagas';
+import {calculateResult, selectExchange, updateResult} from './sagas';
 import {rateSelector} from '../rates/sagas';
 
 describe('calculateResult', () => {
@@ -18,22 +18,29 @@ describe('calculateResult', () => {
 });
 
 
-describe('makeTransaction sagas test', () => {
-  const it = sagaHelper(makeTransaction({from: 'EUR', to: 'USD', amount: 3}));
+describe('updateResult saga test', () => {
+  const it = sagaHelper(updateResult());
+
+  it('should select exchange info from state', (result) => {
+    expect(result).toEqual(select(selectExchange));
+
+    return {
+      from: 'USD',
+      to: 'GBP',
+      value: 3,
+    }
+  });
 
   it('should call calculate result', (result) => {
-    expect(result).toEqual(call(calculateResult, {from: 'EUR', to: 'USD', amount: 3}));
+    expect(result).toEqual(call(calculateResult, {from: 'USD', to: 'GBP', amount: 3}));
 
     return 9;
   });
 
   it('should put action with calculated result', (result) => {
     expect(result).toEqual(put({
-      type: "@pockets/COMPLETE_TRANSACTION",
-      payload: {
-        EUR: -3,
-        USD: 9,
-      }
+      type: '@exchange/CHANGE_RESULT',
+      payload: 9,
     }));
   });
 

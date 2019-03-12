@@ -1,0 +1,1407 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Exchange component should be disable when currencies are same 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Exchange
+    from={
+      Object {
+        "currency": "USD",
+        "value": 3,
+      }
+    }
+    onExchange={[Function]}
+    onFromSwitch={[Function]}
+    onInputChange={[Function]}
+    onToSwitch={[Function]}
+    pockets={
+      Array [
+        Object {
+          "amount": 3,
+          "currency": "USD",
+        },
+        Object {
+          "amount": 3,
+          "currency": "GBP",
+        },
+      ]
+    }
+    to={
+      Object {
+        "currency": "USD",
+        "value": 3,
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Slider
+          active={0}
+          onChange={[Function]}
+        >
+          <PocketInfo
+            amount={3}
+            currency="USD"
+            editable={true}
+            onInputChange={[Function]}
+            value={3}
+          />
+          <PocketInfo
+            amount={3}
+            currency="GBP"
+            editable={true}
+            onInputChange={[Function]}
+            value={3}
+          />
+        </Slider>,
+        <Slider
+          active={0}
+          onChange={[Function]}
+        >
+          <PocketInfo
+            amount={3}
+            currency="USD"
+            onInputChange={[Function]}
+            value={3}
+          />
+          <PocketInfo
+            amount={3}
+            currency="GBP"
+            onInputChange={[Function]}
+            value={3}
+          />
+        </Slider>,
+        <div
+          className="button"
+        >
+          <Button
+            disabled={true}
+            onClick={[Function]}
+          >
+            Exchange
+          </Button>
+        </div>,
+      ],
+      "className": "root",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "active": 0,
+          "children": Array [
+            <PocketInfo
+              amount={3}
+              currency="USD"
+              editable={true}
+              onInputChange={[Function]}
+              value={3}
+            />,
+            <PocketInfo
+              amount={3}
+              currency="GBP"
+              editable={true}
+              onInputChange={[Function]}
+              value={3}
+            />,
+          ],
+          "onChange": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "function",
+            "props": Object {
+              "amount": 3,
+              "currency": "USD",
+              "editable": true,
+              "onInputChange": [Function],
+              "value": 3,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "function",
+            "props": Object {
+              "amount": 3,
+              "currency": "GBP",
+              "editable": true,
+              "onInputChange": [Function],
+              "value": 3,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "active": 0,
+          "children": Array [
+            <PocketInfo
+              amount={3}
+              currency="USD"
+              onInputChange={[Function]}
+              value={3}
+            />,
+            <PocketInfo
+              amount={3}
+              currency="GBP"
+              onInputChange={[Function]}
+              value={3}
+            />,
+          ],
+          "onChange": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "function",
+            "props": Object {
+              "amount": 3,
+              "currency": "USD",
+              "onInputChange": [Function],
+              "value": 3,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "function",
+            "props": Object {
+              "amount": 3,
+              "currency": "GBP",
+              "onInputChange": [Function],
+              "value": 3,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <Button
+            disabled={true}
+            onClick={[Function]}
+          >
+            Exchange
+          </Button>,
+          "className": "button",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "Exchange",
+            "disabled": true,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Exchange",
+          "type": [Function],
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Slider
+            active={0}
+            onChange={[Function]}
+          >
+            <PocketInfo
+              amount={3}
+              currency="USD"
+              editable={true}
+              onInputChange={[Function]}
+              value={3}
+            />
+            <PocketInfo
+              amount={3}
+              currency="GBP"
+              editable={true}
+              onInputChange={[Function]}
+              value={3}
+            />
+          </Slider>,
+          <Slider
+            active={0}
+            onChange={[Function]}
+          >
+            <PocketInfo
+              amount={3}
+              currency="USD"
+              onInputChange={[Function]}
+              value={3}
+            />
+            <PocketInfo
+              amount={3}
+              currency="GBP"
+              onInputChange={[Function]}
+              value={3}
+            />
+          </Slider>,
+          <div
+            className="button"
+          >
+            <Button
+              disabled={true}
+              onClick={[Function]}
+            >
+              Exchange
+            </Button>
+          </div>,
+        ],
+        "className": "root",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "active": 0,
+            "children": Array [
+              <PocketInfo
+                amount={3}
+                currency="USD"
+                editable={true}
+                onInputChange={[Function]}
+                value={3}
+              />,
+              <PocketInfo
+                amount={3}
+                currency="GBP"
+                editable={true}
+                onInputChange={[Function]}
+                value={3}
+              />,
+            ],
+            "onChange": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "function",
+              "props": Object {
+                "amount": 3,
+                "currency": "USD",
+                "editable": true,
+                "onInputChange": [Function],
+                "value": 3,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "function",
+              "props": Object {
+                "amount": 3,
+                "currency": "GBP",
+                "editable": true,
+                "onInputChange": [Function],
+                "value": 3,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "active": 0,
+            "children": Array [
+              <PocketInfo
+                amount={3}
+                currency="USD"
+                onInputChange={[Function]}
+                value={3}
+              />,
+              <PocketInfo
+                amount={3}
+                currency="GBP"
+                onInputChange={[Function]}
+                value={3}
+              />,
+            ],
+            "onChange": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "function",
+              "props": Object {
+                "amount": 3,
+                "currency": "USD",
+                "onInputChange": [Function],
+                "value": 3,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "function",
+              "props": Object {
+                "amount": 3,
+                "currency": "GBP",
+                "onInputChange": [Function],
+                "value": 3,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Button
+              disabled={true}
+              onClick={[Function]}
+            >
+              Exchange
+            </Button>,
+            "className": "button",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": "Exchange",
+              "disabled": true,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "Exchange",
+            "type": [Function],
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`Exchange component should be disable when value is less then amount 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Exchange
+    from={
+      Object {
+        "currency": "USD",
+        "value": 4,
+      }
+    }
+    onExchange={[Function]}
+    onFromSwitch={[Function]}
+    onInputChange={[Function]}
+    onToSwitch={[Function]}
+    pockets={
+      Array [
+        Object {
+          "currency": "USD",
+          "value": 3,
+        },
+        Object {
+          "currency": "GBP",
+          "value": 3,
+        },
+      ]
+    }
+    to={
+      Object {
+        "currency": "GBP",
+        "value": 3,
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Slider
+          active={0}
+          onChange={[Function]}
+        >
+          <PocketInfo
+            currency="USD"
+            editable={true}
+            onInputChange={[Function]}
+            value={4}
+          />
+          <PocketInfo
+            currency="GBP"
+            editable={true}
+            onInputChange={[Function]}
+            value={4}
+          />
+        </Slider>,
+        <Slider
+          active={1}
+          onChange={[Function]}
+        >
+          <PocketInfo
+            currency="USD"
+            onInputChange={[Function]}
+            value={3}
+          />
+          <PocketInfo
+            currency="GBP"
+            onInputChange={[Function]}
+            value={3}
+          />
+        </Slider>,
+        <div
+          className="button"
+        >
+          <Button
+            disabled={false}
+            onClick={[Function]}
+          >
+            Exchange
+          </Button>
+        </div>,
+      ],
+      "className": "root",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "active": 0,
+          "children": Array [
+            <PocketInfo
+              currency="USD"
+              editable={true}
+              onInputChange={[Function]}
+              value={4}
+            />,
+            <PocketInfo
+              currency="GBP"
+              editable={true}
+              onInputChange={[Function]}
+              value={4}
+            />,
+          ],
+          "onChange": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "function",
+            "props": Object {
+              "amount": undefined,
+              "currency": "USD",
+              "editable": true,
+              "onInputChange": [Function],
+              "value": 4,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "function",
+            "props": Object {
+              "amount": undefined,
+              "currency": "GBP",
+              "editable": true,
+              "onInputChange": [Function],
+              "value": 4,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "active": 1,
+          "children": Array [
+            <PocketInfo
+              currency="USD"
+              onInputChange={[Function]}
+              value={3}
+            />,
+            <PocketInfo
+              currency="GBP"
+              onInputChange={[Function]}
+              value={3}
+            />,
+          ],
+          "onChange": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "function",
+            "props": Object {
+              "amount": undefined,
+              "currency": "USD",
+              "onInputChange": [Function],
+              "value": 3,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "function",
+            "props": Object {
+              "amount": undefined,
+              "currency": "GBP",
+              "onInputChange": [Function],
+              "value": 3,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <Button
+            disabled={false}
+            onClick={[Function]}
+          >
+            Exchange
+          </Button>,
+          "className": "button",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "Exchange",
+            "disabled": false,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Exchange",
+          "type": [Function],
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Slider
+            active={0}
+            onChange={[Function]}
+          >
+            <PocketInfo
+              currency="USD"
+              editable={true}
+              onInputChange={[Function]}
+              value={4}
+            />
+            <PocketInfo
+              currency="GBP"
+              editable={true}
+              onInputChange={[Function]}
+              value={4}
+            />
+          </Slider>,
+          <Slider
+            active={1}
+            onChange={[Function]}
+          >
+            <PocketInfo
+              currency="USD"
+              onInputChange={[Function]}
+              value={3}
+            />
+            <PocketInfo
+              currency="GBP"
+              onInputChange={[Function]}
+              value={3}
+            />
+          </Slider>,
+          <div
+            className="button"
+          >
+            <Button
+              disabled={false}
+              onClick={[Function]}
+            >
+              Exchange
+            </Button>
+          </div>,
+        ],
+        "className": "root",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "active": 0,
+            "children": Array [
+              <PocketInfo
+                currency="USD"
+                editable={true}
+                onInputChange={[Function]}
+                value={4}
+              />,
+              <PocketInfo
+                currency="GBP"
+                editable={true}
+                onInputChange={[Function]}
+                value={4}
+              />,
+            ],
+            "onChange": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "function",
+              "props": Object {
+                "amount": undefined,
+                "currency": "USD",
+                "editable": true,
+                "onInputChange": [Function],
+                "value": 4,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "function",
+              "props": Object {
+                "amount": undefined,
+                "currency": "GBP",
+                "editable": true,
+                "onInputChange": [Function],
+                "value": 4,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "active": 1,
+            "children": Array [
+              <PocketInfo
+                currency="USD"
+                onInputChange={[Function]}
+                value={3}
+              />,
+              <PocketInfo
+                currency="GBP"
+                onInputChange={[Function]}
+                value={3}
+              />,
+            ],
+            "onChange": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "function",
+              "props": Object {
+                "amount": undefined,
+                "currency": "USD",
+                "onInputChange": [Function],
+                "value": 3,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "function",
+              "props": Object {
+                "amount": undefined,
+                "currency": "GBP",
+                "onInputChange": [Function],
+                "value": 3,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Button
+              disabled={false}
+              onClick={[Function]}
+            >
+              Exchange
+            </Button>,
+            "className": "button",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": "Exchange",
+              "disabled": false,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "Exchange",
+            "type": [Function],
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`Exchange component should match snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Exchange
+    from={
+      Object {
+        "currency": "USD",
+        "value": 3,
+      }
+    }
+    onExchange={[Function]}
+    onFromSwitch={[Function]}
+    onInputChange={[Function]}
+    onToSwitch={[Function]}
+    pockets={
+      Array [
+        Object {
+          "amount": 3,
+          "currency": "USD",
+        },
+        Object {
+          "amount": 3,
+          "currency": "GBP",
+        },
+      ]
+    }
+    to={
+      Object {
+        "currency": "GBP",
+        "value": 3,
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Slider
+          active={0}
+          onChange={[Function]}
+        >
+          <PocketInfo
+            amount={3}
+            currency="USD"
+            editable={true}
+            onInputChange={[Function]}
+            value={3}
+          />
+          <PocketInfo
+            amount={3}
+            currency="GBP"
+            editable={true}
+            onInputChange={[Function]}
+            value={3}
+          />
+        </Slider>,
+        <Slider
+          active={1}
+          onChange={[Function]}
+        >
+          <PocketInfo
+            amount={3}
+            currency="USD"
+            onInputChange={[Function]}
+            value={3}
+          />
+          <PocketInfo
+            amount={3}
+            currency="GBP"
+            onInputChange={[Function]}
+            value={3}
+          />
+        </Slider>,
+        <div
+          className="button"
+        >
+          <Button
+            disabled={false}
+            onClick={[Function]}
+          >
+            Exchange
+          </Button>
+        </div>,
+      ],
+      "className": "root",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "active": 0,
+          "children": Array [
+            <PocketInfo
+              amount={3}
+              currency="USD"
+              editable={true}
+              onInputChange={[Function]}
+              value={3}
+            />,
+            <PocketInfo
+              amount={3}
+              currency="GBP"
+              editable={true}
+              onInputChange={[Function]}
+              value={3}
+            />,
+          ],
+          "onChange": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "function",
+            "props": Object {
+              "amount": 3,
+              "currency": "USD",
+              "editable": true,
+              "onInputChange": [Function],
+              "value": 3,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "function",
+            "props": Object {
+              "amount": 3,
+              "currency": "GBP",
+              "editable": true,
+              "onInputChange": [Function],
+              "value": 3,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "active": 1,
+          "children": Array [
+            <PocketInfo
+              amount={3}
+              currency="USD"
+              onInputChange={[Function]}
+              value={3}
+            />,
+            <PocketInfo
+              amount={3}
+              currency="GBP"
+              onInputChange={[Function]}
+              value={3}
+            />,
+          ],
+          "onChange": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "function",
+            "props": Object {
+              "amount": 3,
+              "currency": "USD",
+              "onInputChange": [Function],
+              "value": 3,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "function",
+            "props": Object {
+              "amount": 3,
+              "currency": "GBP",
+              "onInputChange": [Function],
+              "value": 3,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <Button
+            disabled={false}
+            onClick={[Function]}
+          >
+            Exchange
+          </Button>,
+          "className": "button",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "Exchange",
+            "disabled": false,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Exchange",
+          "type": [Function],
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Slider
+            active={0}
+            onChange={[Function]}
+          >
+            <PocketInfo
+              amount={3}
+              currency="USD"
+              editable={true}
+              onInputChange={[Function]}
+              value={3}
+            />
+            <PocketInfo
+              amount={3}
+              currency="GBP"
+              editable={true}
+              onInputChange={[Function]}
+              value={3}
+            />
+          </Slider>,
+          <Slider
+            active={1}
+            onChange={[Function]}
+          >
+            <PocketInfo
+              amount={3}
+              currency="USD"
+              onInputChange={[Function]}
+              value={3}
+            />
+            <PocketInfo
+              amount={3}
+              currency="GBP"
+              onInputChange={[Function]}
+              value={3}
+            />
+          </Slider>,
+          <div
+            className="button"
+          >
+            <Button
+              disabled={false}
+              onClick={[Function]}
+            >
+              Exchange
+            </Button>
+          </div>,
+        ],
+        "className": "root",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "active": 0,
+            "children": Array [
+              <PocketInfo
+                amount={3}
+                currency="USD"
+                editable={true}
+                onInputChange={[Function]}
+                value={3}
+              />,
+              <PocketInfo
+                amount={3}
+                currency="GBP"
+                editable={true}
+                onInputChange={[Function]}
+                value={3}
+              />,
+            ],
+            "onChange": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "function",
+              "props": Object {
+                "amount": 3,
+                "currency": "USD",
+                "editable": true,
+                "onInputChange": [Function],
+                "value": 3,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "function",
+              "props": Object {
+                "amount": 3,
+                "currency": "GBP",
+                "editable": true,
+                "onInputChange": [Function],
+                "value": 3,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "active": 1,
+            "children": Array [
+              <PocketInfo
+                amount={3}
+                currency="USD"
+                onInputChange={[Function]}
+                value={3}
+              />,
+              <PocketInfo
+                amount={3}
+                currency="GBP"
+                onInputChange={[Function]}
+                value={3}
+              />,
+            ],
+            "onChange": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "function",
+              "props": Object {
+                "amount": 3,
+                "currency": "USD",
+                "onInputChange": [Function],
+                "value": 3,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "function",
+              "props": Object {
+                "amount": 3,
+                "currency": "GBP",
+                "onInputChange": [Function],
+                "value": 3,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Button
+              disabled={false}
+              onClick={[Function]}
+            >
+              Exchange
+            </Button>,
+            "className": "button",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": "Exchange",
+              "disabled": false,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "Exchange",
+            "type": [Function],
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

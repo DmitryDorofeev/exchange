@@ -57,11 +57,12 @@ Exchange.defaultProps = {
 };
 
 const PocketType = PropTypes.shape({
-  amount: PropTypes.number.isRequired,
+  value: PropTypes.number.isRequired,
   currency: PropTypes.string.isRequired,
 });
 
 Exchange.propTypes = {
+  pockets: PropTypes.array,
   from: PocketType.isRequired,
   to: PocketType.isRequired,
 };
