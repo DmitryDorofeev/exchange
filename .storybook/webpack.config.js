@@ -26,6 +26,16 @@ module.exports = ({config}) => {
         }
       ]
     },
+    {
+      test: /\.css$/,
+      include: path.resolve(__dirname, '../node_modules'),
+      loaders: [
+        "style-loader",
+        {
+          loader: "css-loader",
+        }
+      ]
+    },
     ...rules
   ];
 

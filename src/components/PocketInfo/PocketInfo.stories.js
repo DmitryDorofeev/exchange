@@ -3,4 +3,4 @@ import {PocketInfo} from './PocketInfo';
 import {storiesOf} from '@storybook/react';
 
 storiesOf('PocketInfo', module)
-  .add('default', () => <PocketInfo currency={"GBP"} amount={30}/>);
+  .add('default', () => <PocketInfo currency={"GBP"} amount={30} value={20}/>);
