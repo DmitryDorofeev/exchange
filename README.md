@@ -1,6 +1,7 @@
-# Exchange screen
+# Exchange screen [![Build Status](https://travis-ci.org/DmitryDorofeev/exchange.svg?branch=master)](https://travis-ci.org/DmitryDorofeev/exchange)
 
-Storybook:
+Storybook: https://storybook.jsdaddy.tech/
 
-Demo:
+Demo: https://exchange.jsdaddy.tech/
+
 
