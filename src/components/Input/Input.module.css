@@ -14,3 +14,7 @@
     -webkit-appearance: none;
     margin: 0;
 }
+
+.error {
+    color: #E73C7E;
+}

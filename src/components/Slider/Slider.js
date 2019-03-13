@@ -24,7 +24,6 @@ export const Slider = ({children, onChange, active = 0}) => {
         dots
         afterChange={setCurrent}
         className={styles.slide}
-        adaptiveHeight
         ref={slider}
       >
         {children}
