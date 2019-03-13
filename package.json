@@ -12,7 +12,6 @@
     "react-slick": "^0.23.2",
     "redux": "^4.0.1",
     "redux-saga": "^1.0.2",
-    "redux-saga-testing": "^1.0.5",
     "slick-carousel": "^1.8.1"
   },
   "scripts": {
@@ -40,7 +39,8 @@
     "@storybook/react": "^5.0.0",
     "@storybook/theming": "^5.0.1",
     "babel-loader": "^8.0.5",
-    "enzyme": "^3.9.0",
-    "enzyme-adapter-react-16": "^1.10.0"
+    "enzyme": "3.9.0",
+    "enzyme-adapter-react-16": "1.10.0",
+    "redux-saga-testing": "1.0.5"
   }
 }
