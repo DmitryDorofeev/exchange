@@ -1,5 +1,5 @@
 import {take, put, call, select} from 'redux-saga/effects';
-import {changeResult, CHANGE_VALUE, SWITCH_CURRENCY} from './actions';
+import {changeResult, CHANGE_VALUE, SWITCH_CURRENCY, EXCHANGE, changeValue} from './actions';
 import {rateSelector} from '../rates/sagas';
 import {FETCH_SUCCEEDED} from '../rates/actions';
 
@@ -23,5 +23,13 @@ export function* watchInputChange() {
     yield take([CHANGE_VALUE, SWITCH_CURRENCY, FETCH_SUCCEEDED]);
 
     yield call(updateResult);
+  }
+}
+
+export function* watchExchange() {
+  while (true) {
+    yield take([EXCHANGE]);
+
+    yield put(changeValue(0));
   }
 }

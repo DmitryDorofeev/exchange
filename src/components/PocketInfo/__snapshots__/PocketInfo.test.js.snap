@@ -302,6 +302,7 @@ ShallowWrapper {
             3
           </div>
           <Input
+            error={true}
             onChange={[Function]}
             value="3.00"
           />
@@ -382,6 +383,7 @@ ShallowWrapper {
               3
             </div>,
             <Input
+              error={true}
               onChange={[Function]}
               value="3.00"
             />,
@@ -414,6 +416,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
+              "error": true,
               "onChange": [Function],
               "value": "3.00",
             },
@@ -457,6 +460,7 @@ ShallowWrapper {
               3
             </div>
             <Input
+              error={true}
               onChange={[Function]}
               value="3.00"
             />
@@ -537,6 +541,7 @@ ShallowWrapper {
                 3
               </div>,
               <Input
+                error={true}
                 onChange={[Function]}
                 value="3.00"
               />,
@@ -569,6 +574,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
+                "error": true,
                 "onChange": [Function],
                 "value": "3.00",
               },
@@ -648,6 +654,7 @@ ShallowWrapper {
         </div>,
         <div>
           <Input
+            error={false}
             onChange={[Function]}
             value="3.00"
           />
@@ -722,6 +729,7 @@ ShallowWrapper {
           "children": Array [
             null,
             <Input
+              error={false}
               onChange={[Function]}
               value="3.00"
             />,
@@ -735,6 +743,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
+              "error": false,
               "onChange": [Function],
               "value": "3.00",
             },
@@ -771,6 +780,7 @@ ShallowWrapper {
           </div>,
           <div>
             <Input
+              error={false}
               onChange={[Function]}
               value="3.00"
             />
@@ -845,6 +855,7 @@ ShallowWrapper {
             "children": Array [
               null,
               <Input
+                error={false}
                 onChange={[Function]}
                 value="3.00"
               />,
@@ -858,6 +869,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
+                "error": false,
                 "onChange": [Function],
                 "value": "3.00",
               },
